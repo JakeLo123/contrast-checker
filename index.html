@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contrast Checker</title>
+  <script src="utils.js" defer></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <!-- visual display -->
+  <div id="background-display">
+    <p id="foreground-display" contenteditable="true">This is demo text</p>
+  </div>
+
+  <!-- feedback text -->
+  <p id="feedback"></p>
+
+  <label for="foreground-input">Foreground</label>
+  <input type="text" id="foreground-input" value="#000000">
+
+  <label for="background-input">Background</label>
+  <input type="text" id="background-input" value="#ffffff">
+
+  <button id="calculate-contrast">Calculate contrast</button>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4rem;
+}
+
+#background-input, #foreground-input, #calculate-contrast {
+  padding: 1rem;
+}
+
+#calculate-contrast {
+  display: block;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#feedback {
+  height: 5rem;
+}
+
+#background-display {
+  text-align: center;
+  padding: 1rem;
+}
+
+#foreground-display {
+  font-size: 2rem;
+}
